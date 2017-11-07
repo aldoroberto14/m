@@ -12,7 +12,7 @@ const myBot = ['u00f827ce6641038d7c9b6704a9777dfa','ua762662a25bde98ce0007a45a02
 const banList = [];//Banned list
 var vx = {};var midnornama,pesane,kickhim;var waitMsg = "no";//DO NOT CHANGE THIS
 const imgArr = ['png','jpg','jpeg','gif','bmp','webp'];//DO NOT CHANGE THIS
-var komenTL = "AutoLike by GoogleX\nline://ti/p/~rakamastah"; //Comment for timeline
+var komenTL = "AutoLike by GoogleX\nline://ti/p/~phet_testbot"; //Comment for timeline
 var bcText = "Masukan teks untuk broadcast";
 var limitposts = '10'; //Output timeline post
 
@@ -82,7 +82,7 @@ class LINE extends LineAPI {
 => !unban *ADMIN*\n\
 => !whattime\n\
 => !youtube\n\
-\n\n# Gunakan bot dengan bijak ^_^";
+\n\n# [SELFBOT PHET HACK BOT]";
         var that = this;
     }
 
@@ -152,7 +152,7 @@ class LINE extends LineAPI {
 		if(operation.type == 5 && this.stateStatus.salam == 1) {//someone adding me..
             let halo = new Message();
 			halo.to = operation.param1;
-			halo.text = "Creator: line://ti/p/~rakamastah (~GoogleX)";
+			halo.text = "Creator: line://ti/p/~phet_testbot (~GoogleX)";
 			this._client.sendMessage(0, halo);
         }
 
